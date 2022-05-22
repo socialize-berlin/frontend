@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.wrapper {
+  position: relative;
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+}
+
+h1 {
+  font-family: "Source Serif Pro", sans-serif;
+}
+
+h2 {
+  font-family: "Source Serif Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  h2 {
+    font-size: 22px;
+  }
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  padding-left: 50px;
+}
+
+.list .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 30px;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.mapboxgl-map {
+  font-family: "Source Serif Pro", sans-serif !important;
+}
+
+.page {
+  padding: 30px 0;
+}
+
+.page .block {
+  margin-bottom: 50px;
+}
+
+.page .block:last-child {
+  margin-bottom: 0;
+}
+
+.page ul {
+  line-height: 1.6;
+}
+
+.page .header {
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.page h1 {
+  margin-bottom: 0px;
+}
+
+.page h4 {
+  margin-top: 10px;
+  color: #999;
+  font-weight: normal;
+}
+
+.page h2 {
+  font-size: 20px;
+}
+
+.page a {
+  color: inherit;
+}
+
+.page table {
+  margin: 50px 0;
+}
+
+.page table td {
+  padding: 15px 0;
+  padding-right: 30px;
+  border-bottom: 1px solid #eee;
+}
+
+button {
+  color: black;
+}
