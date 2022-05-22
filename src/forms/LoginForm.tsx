@@ -5,7 +5,7 @@ import * as Yup from "yup";
 import { InputField } from "./fields/InputField";
 import { Button } from "../components/Button";
 import { gql, useMutation } from "@apollo/client";
-import { useAuth } from "../context/UserContext";
+import { SOCIALIZE_AUTH_TOKEN, useAuth } from "../context/UserContext";
 import { Message } from "../components/Message";
 
 export interface FormValues {
@@ -56,6 +56,8 @@ export function LoginForm(props: {
       ) => {
         try {
           setSubmitting(true);
+
+          localStorage.removeItem(SOCIALIZE_AUTH_TOKEN);
 
           await login({
             variables: {
